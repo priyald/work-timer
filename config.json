@@ -1,0 +1,49 @@
+{
+  "_comment": "Edit anything here, then restart the app. Times are minutes unless noted.",
+  "mode": "steady",
+  "adapt_mode": true,
+  "gears": {
+    "choppy": {
+      "work_minutes": 15,
+      "short_break_minutes": 5,
+      "blocks_before_long_break": 6
+    },
+    "steady": {
+      "work_minutes": 25,
+      "short_break_minutes": 5,
+      "blocks_before_long_break": 4
+    },
+    "flow": {
+      "work_minutes": 50,
+      "short_break_minutes": 10,
+      "blocks_before_long_break": 2
+    }
+  },
+  "long_break_minutes": 30,
+  "_stops": "Each stop fires on whichever comes first: the hours, or the clock time.",
+  "meal_after_work_hours": 5,
+  "lunch_by": "13:00",
+  "lunch_window_minutes": 150,
+  "stop_after_work_hours": 8,
+  "stop_by": "18:30",
+  "min_work_before_clock_stop_minutes": 20,
+  "_starting": "A five minute start is cheap to agree to. It rolls into a normal block.",
+  "small_start_minutes": 5,
+  "_meetings": "Known windows. Counted as work, never interrupted by a break.",
+  "meetings": [
+    {
+      "label": "Monday meeting",
+      "days": [
+        "mon"
+      ],
+      "start": "11:15",
+      "end": "12:15"
+    }
+  ],
+  "snooze_minutes": 10,
+  "max_snoozes_per_break": 3,
+  "auto_start_after_break": true,
+  "animal": "fox",
+  "sounds": true,
+  "notifications": true
+}

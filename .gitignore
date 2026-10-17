@@ -1,0 +1,4 @@
+.today.json
+__pycache__/
+*.pyc
+claude-docs/
